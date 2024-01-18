@@ -2,10 +2,10 @@
 function App() {
 
   return (
-    <>
-     <h1>Sala Empreendedor de Barbalha</h1>
-     
-    </>
+    <div className="bg-black">
+     <h1 className="text-white">Sala Empreendedor de Barbalha</h1>
+
+    </div>
   )
 }
 
