@@ -1,0 +1,53 @@
+import { FaCheckCircle } from "react-icons/fa";
+
+interface Service {
+  text: string;
+}
+
+export function Services() {
+  const servicesList: Service[] = [
+    {
+      text: "Orientação para abertura e alteração do MEI",
+    },
+    {
+      text: "Emissão de boletos",
+    },
+    {
+      text: "Declaração anual do MEI",
+    },
+    {
+      text: "Parcelamento de dívidas tributárias",
+    },
+    {
+      text: "Orientação sobre crédito",
+    },
+    {
+      text: "Inscrição em eventos e capacitações",
+    },
+    {
+      text: "Orientação para emissão de notas fiscais",
+    },
+    {
+      text: "Orientação baixa do MEI ",
+    },
+  ];
+  
+  return (
+    <section className="mt-24 lg:pl-20 lg:flex lg:flex-col lg:justify-center lg:items-center lg:mt-48">
+      <h2 className="text-[#02B1C8] font-bold text-4xl md:text-5xl text-center md:text-left ">
+        Serviços ofertados
+      </h2>
+
+      <ul className="flex flex-col gap-4 justify-center px-6 mt-8 lg:grid lg:grid-cols-2 lg:px-0 lg:items-center lg:mt-16 lg:gap-8">
+        {servicesList.map((item) => (
+          <li className="flex items-start gap-2 lg:mr-24">
+            <FaCheckCircle color="#3A3178" fontSize={30} />
+            <span className="font-semibold text-lg lg:text-xl">
+              {item.text}
+            </span>
+          </li>
+        ))}
+      </ul>
+    </section>
+  );
+}
