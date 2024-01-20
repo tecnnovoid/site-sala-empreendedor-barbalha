@@ -38,11 +38,11 @@ export function Services() {
         Serviços ofertados
       </h2>
 
-      <ul className="flex flex-col gap-4 justify-center px-6 mt-8 lg:grid lg:grid-cols-2 lg:px-0 lg:items-center lg:mt-16 lg:gap-8">
+      <ul className="flex flex-col gap-4 justify-center px-6 mt-8 lg:grid lg:grid-cols-2 lg:px-0 lg:items-center lg:mt-16 lg:gap-10">
         {servicesList.map((item) => (
           <li className="flex items-start gap-2 lg:mr-24">
             <FaCheckCircle color="#3A3178" fontSize={30} />
-            <span className="font-semibold text-lg lg:text-xl">
+            <span className="font-semibold text-lg lg:text-2xl">
               {item.text}
             </span>
           </li>
