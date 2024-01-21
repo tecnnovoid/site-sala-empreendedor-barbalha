@@ -3,7 +3,7 @@ import imgSala2 from "../assets/img-sala2.png";
 
 export function Home() {
   return (
-    <section className="mt-32 flex flex-col items-center lg:flex lg:flex-row lg:mt-36">
+    <section id="home" className="mt-32 flex flex-col items-center lg:flex lg:flex-row lg:mt-36">
       <div className="w-[90%] flex flex-col justify-center items-center lg:mr-12 lg:w-[46%] lg:pl-20 md:items-start">
         <h1 className="text-[#02B1C8] font-bold text-4xl md:text-5xl text-center md:text-left">
           Sala do Empreendedor de Barbalha
