@@ -73,8 +73,8 @@ export function Header() {
         </ul>
       </nav>
       {
-        openMenu && 
-         <div className="flex gap-4 ml-8 mt-40 lg:hidden">
+        openMenu &&
+        <div className="flex gap-4 ml-8 mt-40 lg:hidden">
           <a href="https://www.instagram.com/empreendedoresdebarbalha/" target="_blank">
             <FaInstagram size={40} color="#000" />
           </a>
@@ -83,8 +83,6 @@ export function Header() {
           </a>
         </div>
       }
-
-     
     </header>
   );
 }
