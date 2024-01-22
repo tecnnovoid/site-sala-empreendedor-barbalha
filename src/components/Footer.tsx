@@ -8,19 +8,25 @@ import { MenuItem } from "../interfaces/menuItem";
 export function Footer() {
 
   const itensMenu: MenuItem[] = [
-    {
-      text: "Home",
-    },
-    {
-      text: "Serviços",
-    },
-    {
-      text: "Projetos",
-    },
-    {
-      text: "Revista",
-    },
-  ];
+        {
+            text: "Home",
+            id: "home"
+        },
+        {
+            text: "Serviços",
+            id: "services"
+        },
+         {
+            text: "Projetos",
+            id: "projects"
+        },
+         {
+            text: "Revista",
+            id: "magazine"
+        },
+        
+        
+    ]
 
   return (
     <footer className="bg-[#4C3E9D] flex flex-col pt-8 pb-10 mt-20 lg:pb-8">
@@ -31,7 +37,7 @@ export function Footer() {
           <ul className="flex-col lg:flex lg:flex-row lg:gap-10">
             {itensMenu.map((item) => (
               <li className="pt-4">
-                <a href="" className="text-xl font-medium text-white">
+                <a href="" className="text-lg  font-medium text-white">
                   {item.text}
                 </a>
               </li>
@@ -56,7 +62,7 @@ export function Footer() {
           <img src={sebrae} alt="Logo Sebrae" className="h-16" />
           <img src={logoPrefeitura} alt="Logo Prefeitura de Barbalha" className="h-16" />
         </div>
-        <div>
+        <div className="text-base">
           <p>©Sala do Empreendedor de Barbalha 2023</p>
           <p>Desenvolvido por Tecnnovoid</p>
         </div>

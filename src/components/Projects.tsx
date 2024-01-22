@@ -1,4 +1,5 @@
 import { ItinerantEntrepreneur } from "./projects/ItinerantEntrepreneur";
+import { Magazines } from "./projects/Magazines";
 import { Schools } from "./projects/Schools";
 import { VirtualAttendant } from "./projects/VirtualAttendant";
 import { WomenEntrepreneurs } from "./projects/WomenEntrepreneurs";
@@ -13,6 +14,7 @@ export function Projects() {
       <VirtualAttendant />
       <Schools />
       <ItinerantEntrepreneur />
+      <Magazines />
       
     </section>
   );

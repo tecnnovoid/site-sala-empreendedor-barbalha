@@ -33,7 +33,7 @@ export function Services() {
   ];
   
   return (
-    <section id="services" className="mt-24 lg:pl-20 lg:flex lg:flex-col lg:justify-center lg:items-center lg:mt-48">
+    <section id="services" className="pt-24 lg:pl-20 lg:flex lg:flex-col lg:justify-center lg:items-center lg:pt-48">
       <h2 className="text-[#02B1C8] font-bold text-4xl md:text-5xl text-center md:text-left ">
         Serviços ofertados
       </h2>

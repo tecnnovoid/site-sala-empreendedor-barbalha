@@ -6,14 +6,16 @@ import { Projects } from "../components/Projects"
 import { Services } from "../components/Services"
 
 function App() {
-
+  
   return (
-    <div>
+    <div >
     <Header/>
     <Home/>
     <Services />
     <Projects />
     <Footer />
+
+    
 
     </div>
   )
