@@ -3,6 +3,8 @@ import logo from "../assets/logo1.png";
 import { useState } from "react";
 import { IoClose } from "react-icons/io5";
 import { MenuItem } from "../interfaces/menuItem";
+import { FaInstagram } from "react-icons/fa";
+import { FaWhatsapp } from "react-icons/fa";
 
 export function Header() {
   const [openMenu, setOpenMenu] = useState<boolean>(false);
@@ -38,7 +40,7 @@ export function Header() {
     <header
       className={
         openMenu
-          ? "flex-col h-[100vh] items-center justify-center bg-white fixed top-0 left-0 right-0 z-50 lg:flex lg:flex-row lg:justify-between lg:pr-24 md:pl-10"
+          ? "flex-col h-[100vh] items-center justify-center bg-white fixed top-0 left-0 right-0 z-50 lg:flex lg:flex-row lg:justify-between"
           : "flex-col items-center justify-center bg-white fixed top-0 left-0 right-0 z-50 lg:flex lg:flex-row lg:justify-between lg:pr-24 lg:pl-10"
       }
     >
@@ -70,6 +72,19 @@ export function Header() {
           ))}
         </ul>
       </nav>
+      {
+        openMenu && 
+         <div className="flex gap-4 ml-8 mt-40 lg:hidden">
+          <a href="https://www.instagram.com/empreendedoresdebarbalha/" target="_blank">
+            <FaInstagram size={40} color="#000" />
+          </a>
+          <a href="https://wa.me/558892317295" target="_blank">
+            <FaWhatsapp size={40} color="#000" />
+          </a>
+        </div>
+      }
+
+     
     </header>
   );
 }

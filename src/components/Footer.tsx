@@ -46,10 +46,10 @@ export function Footer() {
         </nav>
 
         <div className="flex gap-4 mt-3">
-          <a href="https://instagram.com/liviaaraujo._" target="_blank">
+          <a href="https://www.instagram.com/empreendedoresdebarbalha/" target="_blank">
             <FaInstagram size={40} color="#fff" />
           </a>
-          <a href="https://wa.me/558892858695" target="_blank">
+          <a href="https://wa.me/558892317295" target="_blank">
             <FaWhatsapp size={40} color="#fff" />
           </a>
         </div>
