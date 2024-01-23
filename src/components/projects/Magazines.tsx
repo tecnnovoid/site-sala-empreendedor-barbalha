@@ -1,4 +1,4 @@
-import magazinesImg from "../../assets/Revistas.png"
+import magazinesImg from "../../assets/revistas.png"
 
 export function Magazines() {
     return (
