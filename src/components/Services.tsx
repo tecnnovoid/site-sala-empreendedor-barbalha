@@ -31,10 +31,10 @@ export function Services() {
       text: "Orientação baixa do MEI ",
     },
   ];
-  
+
   return (
     <section id="services" className="pt-24 lg:pl-20 lg:flex lg:flex-col lg:justify-center lg:items-center lg:pt-48">
-      <h2 className="text-[#02B1C8] font-bold text-4xl md:text-5xl text-center md:text-left ">
+      <h2 className="text-[#02B1C8] font-bold text-4xl lg:text-5xl text-center :text-left ">
         Serviços ofertados
       </h2>
 
