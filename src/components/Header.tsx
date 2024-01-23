@@ -5,6 +5,7 @@ import { IoClose } from "react-icons/io5";
 import { MenuItem } from "../interfaces/menuItem";
 import { FaInstagram } from "react-icons/fa";
 import { FaWhatsapp } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 export function Header() {
   const [openMenu, setOpenMenu] = useState<boolean>(false);
@@ -12,19 +13,20 @@ export function Header() {
   const itensMenu: MenuItem[] = [
     {
       text: "Home",
-      id: "home",
+      id: "/#home",
     },
     {
       text: "Serviços",
-      id: "services",
+      id: "/#services",
     },
     {
       text: "Projetos",
-      id: "projects",
+      id: "/#projects",
     },
     {
       text: "Revista",
       id: "magazine",
+      link: "revista"
     },
   ];
 
@@ -45,13 +47,13 @@ export function Header() {
       }
     >
       <div className="flex items-center justify-between pl-4 pr-8">
-        <a href="#">
+        <Link to="/">
           <img
             src={logo}
             alt="Logo Sala do Empreendedor de Barbalha"
             className="h-24"
           />
-        </a>
+        </Link>
         <button onClick={onClickOpenMenu} className="lg:hidden">
           {!openMenu ? <GiHamburgerMenu size={35} /> : <IoClose size={35} />}
         </button>
@@ -61,13 +63,24 @@ export function Header() {
         <ul className="flex-col ml-8 lg:flex lg:flex-row lg:gap-10">
           {itensMenu.map((item) => (
             <li className="pt-8 lg:pt-0">
-              <a
-                href={"#" + item.id}
-                onClick={onClickCloseMenu}
-                className="text-xl font-medium"
-              >
-                {item.text}
-              </a>
+              {
+                item.link == null ? (
+                  <a
+                    href={item.id}
+                    onClick={onClickCloseMenu}
+                    className="text-xl font-medium"
+                  >
+                    {item.text}
+                  </a>
+                ) :
+                  <Link
+                    to={item.link}
+                    onClick={onClickCloseMenu}
+                    className="text-xl font-medium"
+                  >
+                    {item.text}
+                  </Link>
+              }
             </li>
           ))}
         </ul>
