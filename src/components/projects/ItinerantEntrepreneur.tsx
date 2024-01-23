@@ -1,4 +1,4 @@
-import  empreendedorItineranteImg from "../../assets/intinerante.png";
+import empreendedorItineranteImg from "../../assets/intinerante.png";
 
 export function ItinerantEntrepreneur() {
   return (
@@ -8,7 +8,9 @@ export function ItinerantEntrepreneur() {
           Empreendedor Itinerante
         </h3>
         <p className="w-[90%] text-center mt-4 text-lg lg:w-[80%] lg:text-xl">
-          Prestar atendimento na zona rural atuando de forma educativa, incentivando a formalização dos pequenos negócios, objetivando a adesão dos empreendedores aos serviços da sala do empreendedor
+          Prestar atendimento na zona rural atuando de forma educativa,
+          incentivando a formalização dos pequenos negócios, objetivando a
+          adesão dos empreendedores aos serviços da sala do empreendedor
         </p>
       </div>
       <img

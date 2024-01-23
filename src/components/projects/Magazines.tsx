@@ -12,11 +12,11 @@ export function Magazines() {
                     locais .
 
                 </p>
-                 <button className="bg-[#02B1C8] font-semibold text-white text-xl w-56 rounded-xl py-3 flex items-center justify-center mt-4">
-          Acessar revistas
-        </button>
+                <a className="bg-[#02B1C8] font-semibold text-white text-xl w-56 rounded-xl py-3 flex items-center justify-center mt-4">
+                    Acessar revistas
+                </a>
             </div>
-            <img src={magazinesImg} alt="" className="w-[95%] lg:w-[20%]" />
+            <img src={magazinesImg} alt="Revistas da Sala do Empreendedor de barbalha" className="w-[95%] lg:w-[45%]" />
 
         </section>
     )
