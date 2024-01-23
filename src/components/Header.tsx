@@ -41,7 +41,7 @@ export function Header() {
       className={
         openMenu
           ? "flex-col h-[100vh] items-center justify-center bg-white fixed top-0 left-0 right-0 z-50 lg:flex lg:flex-row lg:justify-between"
-          : "flex-col items-center justify-center bg-white fixed top-0 left-0 right-0 z-50 lg:flex lg:flex-row lg:justify-between lg:pr-24 lg:pl-10"
+          : "flex-col items-center justify-center bg-white fixed top-0 left-0 right-0 z-50 lg:flex lg:flex-row lg:justify-between lg:pr-24 lg:pl-10  2xl:pr-44"
       }
     >
       <div className="flex items-center justify-between pl-4 pr-8">
