@@ -5,10 +5,10 @@ export function Magazines() {
         <section id="magazine" className="flex flex-col items-center mt-28 lg:flex-row-reverse">
             <div className="flex flex-col items-center mb-8">
                 <h3 className="text-[#3A3178] w-[90%] text-3xl font-bold text-center lg:text-3xl lg:font-bold">
-                    A revista da sala do empreendedor de barbalha
+                    A revista da sala do empreendedor de Barbalha
                 </h3>
                 <p className="w-[90%] text-center mt-4 text-lg lg:w-[80%] lg:text-xl">
-                    A revista da sala do empreendedor de barbalha já conta com 4 edições, encontram-se informações sobre a atuação da sala do empreendedor no nosso municipio, cursos, e capacitações ofertadas aos empreendedores
+                    A revista da sala do empreendedor de Barbalha já conta com 4 edições, encontram-se informações sobre a atuação da sala do empreendedor no nosso municipio, cursos, e capacitações ofertadas aos empreendedores
                     locais .
 
                 </p>
@@ -16,7 +16,7 @@ export function Magazines() {
                     Acessar revistas 
                 </a>
             </div>
-            <img src={magazinesImg} alt="Revistas da Sala do Empreendedor de barbalha" className="w-[95%] lg:w-[45%]" />
+            <img src={magazinesImg} alt="Revistas da Sala do Empreendedor de Barbalha" className="w-[95%] lg:w-[45%]" />
 
         </section>
     )
