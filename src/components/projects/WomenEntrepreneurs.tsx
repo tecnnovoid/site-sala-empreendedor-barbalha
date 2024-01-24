@@ -2,7 +2,7 @@ import womenEntrepreneursImg from "../../assets/mulheres-emprreendedoras.jpg";
 
 export function WomenEntrepreneurs() {
   return (
-    <div className="flex flex-col mt-12 items-center lg:flex-row-reverse lg:justify-center">
+    <section className="flex flex-col mt-12 items-center lg:flex-row-reverse lg:justify-center">
       <div className="flex flex-col items-center">
         <h3 className="text-[#3A3178] text-3xl font-bold text-center lg:text-4xl lg:font-bold">
           Mulheres empreendedoras
@@ -19,6 +19,6 @@ export function WomenEntrepreneurs() {
         alt="Mulheres empreendedoras"
         className="mt-6 w-[90%] lg:w-[50%]"
       />
-    </div>
+    </section>
   );
 }

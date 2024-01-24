@@ -1,9 +1,5 @@
 import { FaCheckCircle } from "react-icons/fa";
 
-interface Service {
-  text: string;
-}
-
 export function Services() {
   const servicesList: Service[] = [
     {
