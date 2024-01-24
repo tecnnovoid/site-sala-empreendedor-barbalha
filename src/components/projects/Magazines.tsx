@@ -12,7 +12,7 @@ export function Magazines() {
                     locais .
 
                 </p>
-                <a className="bg-[#02B1C8] hover:bg-[#1c9aab] font-semibold text-white text-xl w-56 rounded-xl py-3 flex items-center justify-center mt-4">
+                <a href="https://salaempreendedorbarbalha.com.br/revista" className="bg-[#02B1C8] hover:bg-[#1c9aab] font-semibold text-white text-xl w-56 rounded-xl py-3 flex items-center justify-center mt-4">
                     Acessar revistas 
                 </a>
             </div>
