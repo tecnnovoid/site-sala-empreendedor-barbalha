@@ -62,13 +62,13 @@ export function Header() {
       <nav className={openMenu ? "flex lg:flex" : "hidden lg:flex "}>
         <ul className="flex-col ml-8 lg:flex lg:flex-row lg:gap-10">
           {itensMenu.map((item) => (
-            <li className="pt-8 lg:pt-0">
+            <li className="pt-8 lg:pt-0 hover:text-[#02B1C8]">
               {
                 item.link == null ? (
                   <a
                     href={item.id}
                     onClick={onClickCloseMenu}
-                    className="text-xl font-medium"
+                    className="text-2xl font-medium"
                   >
                     {item.text}
                   </a>
@@ -76,7 +76,7 @@ export function Header() {
                   <Link
                     to={item.link}
                     onClick={onClickCloseMenu}
-                    className="text-xl font-medium"
+                    className="text-2xl font-medium"
                   >
                     {item.text}
                   </Link>
