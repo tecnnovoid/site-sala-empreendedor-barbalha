@@ -9,15 +9,17 @@ import { Video } from "../components/Video"
 function App() {
   
   return (
-    <div >
+    <>
       <Header/>
-      <Home/>
-      <Video />
-      <Services />
-      <Projects />
+      <main>
+        <Home/>
+        <Video />
+        <Services />
+        <Projects />
+      </main>
       <Footer />
-    </div>
+    </>
   )
 }
 
-export default App
+export default App;

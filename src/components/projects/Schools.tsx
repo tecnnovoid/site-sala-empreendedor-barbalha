@@ -2,7 +2,7 @@ import escolas from "../../assets/escolas.jpg";
 
 export function Schools() {
   return (
-    <div className="flex flex-col mt-24 items-center pb-10 lg:flex-row-reverse lg:justify-center lg:mt-40">
+    <section className="flex flex-col mt-24 items-center pb-10 lg:flex-row-reverse lg:justify-center lg:mt-40">
       <div className="flex flex-col items-center">
         <h3 className="text-[#3A3178] w-[90%] text-3xl font-bold text-center lg:text-3xl lg:font-bold">
           Empreendedorismo nas Escolas de Ensino Medio em Tempo Integral
@@ -12,6 +12,6 @@ export function Schools() {
         </p>
       </div>
       <img src={escolas} alt="Foto do projeto Empreendedorismo nas Escolas de Ensino Medio em Tempo Integral" className="mt-6 w-[90%] lg:w-[50%]"/>
-    </div>
+    </section>
   );
 }

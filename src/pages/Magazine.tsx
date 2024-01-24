@@ -22,9 +22,9 @@ export function Magazine() {
                         A revista da sala do empreendedor de barbalha já conta com 4 edições, encontram-se informações sobre a atuação da sala do empreendedor do nosso municipio, cursos, e capacitações ofertadas aos empreendedores
                         locais. Inscreve-se para receber todas as edições de forma online e gratuita!
                     </p>
-                    <button className="bg-[#02B1C8] font-semibold text-white text-xl w-52 rounded-xl py-3 flex items-center justify-center mt-4">
+                    <a href="https://forms.gle/XAv8s6mxzEfTrJCm9" className="bg-[#02B1C8] hover:bg-[#1c9aab] cursor-pointer font-semibold text-white text-xl w-52 rounded-xl py-3 flex items-center justify-center mt-4">
                         Receber revistas
-                    </button>
+                    </a>
                 </div>
 
                 <div className="mt-8 flex items-center justify-center lg:items-start lg:w-[45%] lg:justify-start lg:mt-0 ">
@@ -42,7 +42,7 @@ export function Magazine() {
                         </h3>
                         <img src={magazine1} alt="" className="h-[60vh] mt-4 lg:h-[24rem]" />
                         <a href={magazinePdf1}
-                            download="Barbalha Business 1º edição.pdf" className="bg-[#02B1C8] font-semibold text-white text-xl w-52 rounded-xl py-2 flex items-center justify-center mt-4">
+                            download="Barbalha Business 1º edição.pdf" className="bg-[#02B1C8] hover:bg-[#1c9aab] font-semibold text-white text-xl w-52 rounded-xl py-2 flex items-center justify-center mt-4">
                             Baixar 1º edição
                         </a>
                     </div>
@@ -52,7 +52,7 @@ export function Magazine() {
                         </h3>
                         <img src={magazine2} alt="" className="h-[60vh] mt-4 lg:h-[24rem]" />
                         <a href={magazinePdf2}
-                            download="Barbalha Business 2º edição.pdf" className="bg-[#02B1C8] font-semibold text-white text-xl w-52 rounded-xl py-2 flex items-center justify-center mt-4">
+                            download="Barbalha Business 2º edição.pdf" className="bg-[#02B1C8] hover:bg-[#1c9aab] font-semibold text-white text-xl w-52 rounded-xl py-2 flex items-center justify-center mt-4">
                             Baixar 2º edição
                         </a>
                     </div>
@@ -62,7 +62,7 @@ export function Magazine() {
                         </h3>
                         <img src={magazine3} alt="" className="h-[60vh] mt-4 lg:h-[24rem]" />
                         <a href={magazinePdf3}
-                            download="Barbalha Business 3º edição.pdf" className="bg-[#02B1C8] font-semibold text-white text-xl w-52 rounded-xl py-2 flex items-center justify-center mt-4">
+                            download="Barbalha Business 3º edição.pdf" className="bg-[#02B1C8] hover:bg-[#1c9aab] font-semibold text-white text-xl w-52 rounded-xl py-2 flex items-center justify-center mt-4">
                             Baixar 3º edição
                         </a>
                     </div>
@@ -72,7 +72,7 @@ export function Magazine() {
                         </h3>
                         <img src={magazine4} alt="" className="h-[60vh] mt-4 lg:h-[24rem]" />
                         <a href={magazinePdf4}
-                            download="Barbalha Business 4º edição.pdf" className="bg-[#02B1C8] font-semibold text-white text-xl w-52 rounded-xl py-2 flex items-center justify-center mt-4">
+                            download="Barbalha Business 4º edição.pdf" className="bg-[#02B1C8] hover:bg-[#1c9aab] font-semibold text-white text-xl w-52 rounded-xl py-2 flex items-center justify-center mt-4">
                             Baixar 4º edição
                         </a>
                     </div>

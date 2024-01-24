@@ -30,8 +30,8 @@ export function Footer() {
 
   return (
     <footer className="bg-[#4C3E9D] flex flex-col pt-8 pb-10 mt-20 lg:pb-8">
-      <div className="flex justify-between pr-8 lg:pl-16 lg:pr-20">
-        <img src={logo} alt="Logo Sala do Empreendedor" className="w-[220px] lg:w-[280px]" />
+      <div className="flex justify-between pr-8 lg:pl-12 lg:pr-20">
+        <img src={logo} alt="Logo Sala do Empreendedor" className="ml-2 w-[220px] lg:ml-0 lg:w-[280px]" />
 
         <nav className="hidden lg:flex mt-2">
           <ul className="flex-col lg:flex lg:flex-row lg:gap-10">
@@ -62,7 +62,7 @@ export function Footer() {
           <img src={sebrae} alt="Logo Sebrae" className="h-16" />
           <img src={logoPrefeitura} alt="Logo Prefeitura de Barbalha" className="h-16" />
         </div>
-        <div className="text-base">
+        <div className="text-lg">
           <p>©Sala do Empreendedor de Barbalha 2023</p>
           <p>Desenvolvido por Tecnnovoid</p>
         </div>

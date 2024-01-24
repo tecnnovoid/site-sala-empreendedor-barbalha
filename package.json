@@ -21,7 +21,7 @@
     "react-player": "^2.14.1",
     "react-router-dom": "^6.21.3",
     "react-scroll-parallax": "^3.4.5",
-    "scrollreveal": "^4.0.9",
+    "scrollreveal": "^4.0.9"
   },
   "devDependencies": {
     "@types/react": "^18.2.43",
