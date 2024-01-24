@@ -13,9 +13,9 @@ export function Home() {
           o apoio do Sebrae/CE através de ações gratuitas voltadas para
           impulsionar o desenvolvimento de negócios locais.
         </p>
-        <button className="bg-[#02B1C8] font-semibold text-white text-xl w-32 rounded-xl py-2 flex items-center justify-center mt-4">
-          Vídeo
-        </button>
+        <a href="#video" className="bg-[#02B1C8] cursor-pointer hover:bg-[#1c9aab] font-semibold text-white text-xl w-40 rounded-xl py-3 flex items-center justify-center mt-4">
+          Saiba mais
+        </a>
       </div>
 
       <div className="mt-8 md:flex md:flex-row md:gap-8">
