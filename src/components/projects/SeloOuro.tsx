@@ -1,5 +1,4 @@
 import selos from "../../assets/selos.jpg";
-import selos2023 from "../../assets/selo2023.jpg";
 
 export function SeloOuro() {
   return (
@@ -15,12 +14,12 @@ export function SeloOuro() {
       </div>
       <div className="flex flex-col gap-8 lg:flex-row">
         <img
-          src={selos}
+          src="/assets/images/selos.jpg"
           alt="Selo Ouro de Qualidade em Atendimento"
           className="mt-6 h-[50vh] lg:h-[60vh] lg:w-[50%]"
         />
         <img
-          src={selos2023}
+          src={"/assets/images/selo2023.jpg"}
           alt="Selo Ouro de Qualidade em Atendimento"
           className="mt-6 h-[50vh] lg:h-[60vh] lg:w-[50%]"
         />
