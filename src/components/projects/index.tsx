@@ -1,9 +1,3 @@
-// import { ItinerantEntrepreneur } from "./projects/ItinerantEntrepreneur";
-// import { Magazines } from "./projects/Magazines";
-// import { Schools } from "./projects/Schools";
-// import { SeloOuro } from "./projects/SeloOuro";
-// import { VirtualAttendant } from "./projects/VirtualAttendant";
-// import { WomenEntrepreneurs } from "./projects/WomenEntrepreneurs";
 
 import { ItinerantEntrepreneur } from "./ItinerantEntrepreneur";
 import { Magazines } from "./Magazines";
