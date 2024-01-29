@@ -9,7 +9,7 @@ import Image from "next/image";
 
 export default function App() {
   return (
-    <div>
+    <>
       <Header />
       <main>
         <Home/>
@@ -18,6 +18,6 @@ export default function App() {
         <Projects />
       </main>
       <Footer />
-    </div>
+    </>
   );
 }
