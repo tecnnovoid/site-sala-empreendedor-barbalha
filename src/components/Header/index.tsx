@@ -2,7 +2,6 @@
 import { GiHamburgerMenu } from "react-icons/gi";
 import { useState } from "react";
 import { IoClose } from "react-icons/io5";
-import * as ReactDOM from "react-dom/client";
 import { FaInstagram } from "react-icons/fa";
 import { FaWhatsapp } from "react-icons/fa";
 import Link from "next/link";
@@ -51,7 +50,7 @@ export function Header() {
         <Link href="/">
           <img
             src="/assets/images/logo1.png"
-            alt="Logo Sala do Empreendedor de Barbalha"
+            alt="Logo da Sala do Empreendedor de Barbalha"
             className="h-24"
           />
         </Link>
