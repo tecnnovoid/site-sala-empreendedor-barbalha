@@ -51,7 +51,7 @@ export function Header() {
           <img
             src="/assets/images/logo1.png"
             alt="Logo da Sala do Empreendedor de Barbalha"
-            className="h-24"
+            className="h-20 md:h-24"
           />
         </Link>
         <button onClick={onClickOpenMenu} className="lg:hidden">

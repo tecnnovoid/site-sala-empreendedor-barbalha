@@ -64,7 +64,7 @@ export function Services() {
         <a
         href="https://www.gov.br/empresas-e-negocios/pt-br/empreendedor/quero-ser-mei/obtencao-de-cnpj-acesso-restrito"
         target="_blank"
-        className="flex flex-col items-center justify-center rounded-lg bg-[#f8f8f8] shadow-[rgba(0,0,0,0.16)] shadow-lg h-[10rem] w-[12rem] hover:bg-[#aeeaf2] lg:w-[13rem] lg:h-[11rem]">
+        className="flex flex-col items-center justify-center rounded-lg bg-[#f8f8f8] shadow-[rgba(0,0,0,0.16)] shadow-lg h-[10rem] w-[9rem] hover:bg-[#aeeaf2] lg:w-[13rem] lg:h-[11rem]">
           <div className="w-16">
             <FontAwesomeIcon icon={faAddressCard} />
           </div>
@@ -76,7 +76,7 @@ export function Services() {
         <a 
         href="https://www8.receita.fazenda.gov.br/SimplesNacional/Aplicacoes/ATSPO/pgmei.app/Identificacao"
         target="_blank"
-        className="flex flex-col items-center justify-center rounded-lg bg-[#f8f8f8] shadow-[rgba(0,0,0,0.16)] shadow-lg	h-[10rem] w-[12rem] hover:bg-[#aeeaf2] lg:w-[13rem] lg:h-[11rem]">
+        className="flex flex-col items-center justify-center rounded-lg bg-[#f8f8f8] shadow-[rgba(0,0,0,0.16)] shadow-lg	h-[10rem] w-[9rem] hover:bg-[#aeeaf2] lg:w-[13rem] lg:h-[11rem]">
           <div className="w-11">
             <FontAwesomeIcon icon={faFileInvoiceDollar} />
           </div>
@@ -87,7 +87,7 @@ export function Services() {
         <a 
         href="https://www.gov.br/empresas-e-negocios/pt-br/empreendedor/servicos-para-mei/declaracao-anual-de-faturamento"
         target="_blank"
-        className="flex flex-col items-center justify-center rounded-lg bg-[#f8f8f8] shadow-[rgba(0,0,0,0.16)] shadow-lg	h-[10rem] w-[12rem] hover:bg-[#aeeaf2] lg:w-[13rem] lg:h-[11rem]">
+        className="flex flex-col items-center justify-center rounded-lg bg-[#f8f8f8] shadow-[rgba(0,0,0,0.16)] shadow-lg	h-[10rem] w-[9rem] hover:bg-[#aeeaf2] lg:w-[13rem] lg:h-[11rem]">
           <div className="w-14">
             <FontAwesomeIcon icon={faBusinessTime} />
           </div>
@@ -98,7 +98,7 @@ export function Services() {
         <a 
         href="https://www8.receita.fazenda.gov.br/SimplesNacional/controleAcesso/Autentica.aspx?id=37"
         target="_blank"
-        className="flex flex-col items-center justify-center rounded-lg bg-[#f8f8f8] shadow-[rgba(0,0,0,0.16)] shadow-lg	h-[10rem] w-[12rem] hover:bg-[#aeeaf2] lg:w-[13rem] lg:h-[11rem]">
+        className="flex flex-col items-center justify-center rounded-lg bg-[#f8f8f8] shadow-[rgba(0,0,0,0.16)] shadow-lg	h-[10rem] w-[9rem] hover:bg-[#aeeaf2] lg:w-[13rem] lg:h-[11rem]">
           <div className="w-14">
             <FontAwesomeIcon icon={faMagnifyingGlassDollar} />
           </div>
@@ -109,7 +109,7 @@ export function Services() {
         <a 
         href="https://www.gov.br/empresas-e-negocios/pt-br/empreendedor/servicos-para-mei/nota-fiscal"
         target="_blank"
-        className="flex flex-col items-center justify-center rounded-lg bg-[#f8f8f8] shadow-[rgba(0,0,0,0.16)] shadow-lg	h-[10rem] w-[12rem] hover:bg-[#aeeaf2] lg:w-[13rem] lg:h-[11rem]">
+        className="flex flex-col items-center justify-center rounded-lg bg-[#f8f8f8] shadow-[rgba(0,0,0,0.16)] shadow-lg	h-[10rem] w-[9rem] hover:bg-[#aeeaf2] lg:w-[13rem] lg:h-[11rem]">
           <div className="w-14">
             <FontAwesomeIcon icon={faCircleInfo} />
           </div>
@@ -120,7 +120,7 @@ export function Services() {
         <a 
         href="https://wa.me/558892317295"
         target="_blank"
-        className="flex flex-col items-center justify-center rounded-lg bg-[#f8f8f8] shadow-[rgba(0,0,0,0.16)] shadow-lg	h-[10rem] w-[12rem] hover:bg-[#aeeaf2] lg:w-[13rem] lg:h-[11rem]">
+        className="flex flex-col items-center justify-center rounded-lg bg-[#f8f8f8] shadow-[rgba(0,0,0,0.16)] shadow-lg	h-[10rem] w-[9rem] hover:bg-[#aeeaf2] lg:w-[13rem] lg:h-[11rem]">
           <div className="w-14">
             <FontAwesomeIcon icon={faCreditCard} />
           </div>
@@ -131,7 +131,7 @@ export function Services() {
         <a 
         href="https://wa.me/558892317295"
         target="_blank"
-        className="flex flex-col items-center justify-center rounded-lg bg-[#f8f8f8] shadow-[rgba(0,0,0,0.16)] shadow-lg	h-[10rem] w-[12rem] hover:bg-[#aeeaf2] lg:w-[13rem] lg:h-[11rem]">
+        className="flex flex-col items-center justify-center rounded-lg bg-[#f8f8f8] shadow-[rgba(0,0,0,0.16)] shadow-lg	h-[10rem] w-[9rem] hover:bg-[#aeeaf2] lg:w-[13rem] lg:h-[11rem]">
           <div className="w-14">
             <FontAwesomeIcon icon={faCalendar} />
           </div>
@@ -142,7 +142,7 @@ export function Services() {
       <a 
         href="https://www.gov.br/empresas-e-negocios/pt-br/empreendedor/servicos-para-mei/baixa-de-mei"
         target="_blank"
-        className="flex flex-col items-center justify-center rounded-lg bg-[#f8f8f8] shadow-[rgba(0,0,0,0.16)] shadow-lg	h-[10rem] w-[12rem] hover:bg-[#aeeaf2] lg:w-[13rem] lg:h-[11rem]">
+        className="flex flex-col items-center justify-center rounded-lg bg-[#f8f8f8] shadow-[rgba(0,0,0,0.16)] shadow-lg	h-[10rem] w-[9rem] hover:bg-[#aeeaf2] lg:w-[13rem] lg:h-[11rem]">
           <div className="w-14">
             <FontAwesomeIcon icon={faCheckDouble} />
           </div>

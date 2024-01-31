@@ -31,7 +31,7 @@ export function Footer() {
   return (
     <footer className="bg-[#4C3E9D] flex flex-col pt-8 pb-10 mt-20 lg:pb-8">
       <div className="flex justify-between pr-8 lg:pl-12 lg:pr-20">
-        <img src="/assets/images/logo2.png" alt="Logo Sala do Empreendedor" className="ml-2 w-[220px] lg:ml-0 lg:w-[280px]" />
+        <img src="/assets/images/logo2.png" alt="Logo Sala do Empreendedor" className="ml-2 w-[180px] lg:ml-0 lg:w-[280px]" />
 
         <nav className="hidden lg:flex mt-2">
           <ul className="flex-col lg:flex lg:flex-row lg:gap-10">
@@ -45,12 +45,12 @@ export function Footer() {
           </ul>
         </nav>
 
-        <div className="flex gap-4 mt-3">
+        <div className="flex gap-6 mt-3">
           <a href="https://www.instagram.com/empreendedoresdebarbalha/" target="_blank">
-            <FaInstagram size={40} color="#fff" />
+            <FaInstagram size={36} color="#fff" />
           </a>
           <a href="https://wa.me/558892317295" target="_blank">
-            <FaWhatsapp size={40} color="#fff" />
+            <FaWhatsapp size={36} color="#fff" />
           </a>
         </div>
       </div>
