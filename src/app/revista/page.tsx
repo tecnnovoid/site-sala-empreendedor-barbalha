@@ -46,7 +46,7 @@ export default function Revista() {
           <h2 className="text-[#02B1C8] font-bold text-3xl md:text-5xl text-center md:text-left">
             Baixar revistas
           </h2>
-          <div className="flex flex-col lg:flex-row gap-10 lg:gap-16">
+          <div className="flex flex-col flex-wrap items-center justify-center lg:grid lg:grid-cols-3 lg:justify-center gap-10 lg:gap-16">
             <div className="flex flex-col mt-10 items-center">
               <h3 className="text-[#3A3178] text-2xl font-bold text-center">
                 1º Edição
@@ -115,7 +115,25 @@ export default function Revista() {
                 Baixar 4º edição
               </a>
             </div>
+            <div className="flex flex-col mt-12 items-center">
+              <h3 className="text-[#3A3178] text-2xl font-bold text-center">
+                5º Edição
+              </h3>
+              <img
+                src="/assets/images/barbalha-business-05-capa.jpg"
+                alt=""
+                className="h-[60vh] mt-4 lg:h-[24rem]"
+              />
+              <a
+                href="/assets/pdfs/barbalha-business-5edicaco.pdf"
+                download="Barbalha Business 4º edição.pdf"
+                className="bg-[#02B1C8] hover:bg-[#1c9aab] font-semibold text-white text-xl w-52 rounded-xl py-2 flex items-center justify-center mt-4"
+              >
+                Baixar 5º edição
+              </a>
+            </div>
           </div>
+          
         </section>
       </main>
       <Footer />
