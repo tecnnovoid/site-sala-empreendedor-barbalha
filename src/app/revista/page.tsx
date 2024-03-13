@@ -126,10 +126,27 @@ export default function Revista() {
               />
               <a
                 href="/assets/pdfs/barbalha-business-5edicaco.pdf"
-                download="Barbalha Business 4º edição.pdf"
+                download="Barbalha Business 5º edição.pdf"
                 className="bg-[#02B1C8] hover:bg-[#1c9aab] font-semibold text-white text-xl w-52 rounded-xl py-2 flex items-center justify-center mt-4"
               >
                 Baixar 5º edição
+              </a>
+            </div>
+            <div className="flex flex-col mt-12 items-center">
+              <h3 className="text-[#3A3178] text-2xl font-bold text-center">
+                6º Edição
+              </h3>
+              <img
+                src="/assets/images/barbalha-business-06-capa.jpg"
+                alt=""
+                className="h-[60vh] mt-4 lg:h-[24rem]"
+              />
+              <a
+                href="/assets/pdfs/barbalha-business-6edicaco.pdf"
+                download="Barbalha Business 6º edição.pdf"
+                className="bg-[#02B1C8] hover:bg-[#1c9aab] font-semibold text-white text-xl w-52 rounded-xl py-2 flex items-center justify-center mt-4"
+              >
+                Baixar 6º edição
               </a>
             </div>
           </div>
