@@ -8,7 +8,7 @@ export function Magazines() {
                     A revista da sala do empreendedor de Barbalha
                 </h3>
                 <p className="w-[90%] text-center mt-4 text-lg lg:w-[80%] lg:text-xl">
-                    A revista da sala do empreendedor de Barbalha já conta com 4 edições, encontram-se informações sobre a atuação da sala do empreendedor no nosso municipio, cursos, e capacitações ofertadas aos empreendedores
+                    A revista da sala do empreendedor de Barbalha já conta com 6 edições, encontram-se informações sobre a atuação da sala do empreendedor no nosso municipio, cursos, e capacitações ofertadas aos empreendedores
                     locais .
 
                 </p>
