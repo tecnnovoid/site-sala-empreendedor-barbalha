@@ -154,7 +154,7 @@ export default function Revista() {
                 7º Edição
               </h3>
               <img
-                src="/assets/images/barbalha-business-07-capa.jpg"
+                src="/assets/images/barbalha-business-07-capa.png"
                 alt=""
                 className="h-[60vh] mt-4 lg:h-[24rem]"
               />
