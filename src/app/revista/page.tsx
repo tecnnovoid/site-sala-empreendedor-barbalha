@@ -163,12 +163,12 @@ export default function Revista() {
                 download="Barbalha Business 7º edição.pdf"
                 className="bg-[#02B1C8] hover:bg-[#1c9aab] font-semibold text-white text-xl w-52 rounded-xl py-2 flex items-center justify-center mt-4"
               >
-                Baixar 8º edição
+                Baixar 7º edição
               </a>
             </div>
             <div className="flex flex-col mt-12 items-center">
               <h3 className="text-[#3A3178] text-2xl font-bold text-center">
-                7º Edição
+                8º Edição
               </h3>
               <img
                 src="/assets/images/barbalha-business-08-capa.png"
