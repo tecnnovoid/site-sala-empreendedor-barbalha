@@ -163,7 +163,7 @@ export default function Revista() {
                 download="Barbalha Business 7º edição.pdf"
                 className="bg-[#02B1C8] hover:bg-[#1c9aab] font-semibold text-white text-xl w-52 rounded-xl py-2 flex items-center justify-center mt-4"
               >
-                Baixar 7º edição
+                Baixar 8º edição
               </a>
             </div>
             <div className="flex flex-col mt-12 items-center">
@@ -177,7 +177,7 @@ export default function Revista() {
               />
               <a
                 href="/assets/pdfs/barbalha-business-8edicaco.pdf"
-                download="Barbalha Business 7º edição.pdf"
+                download="Barbalha Business 8º edição.pdf"
                 className="bg-[#02B1C8] hover:bg-[#1c9aab] font-semibold text-white text-xl w-52 rounded-xl py-2 flex items-center justify-center mt-4"
               >
                 Baixar 8º edição
