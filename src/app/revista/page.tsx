@@ -103,12 +103,12 @@ export default function Revista() {
                 4º Edição
               </h3>
               <img
-                src="/assets/images/barbalha-business-02-capa.jpg"
+                src="/assets/images/barbalha-business-04-capa.jpg"
                 alt=""
                 className="h-[60vh] mt-4 lg:h-[24rem]"
               />
               <a
-                href="/assets/pdfs/barbalha-business-1edicaco.pdf"
+                href="/assets/pdfs/barbalha-business-4edicaco.pdf"
                 download="Barbalha Business 4º edição.pdf"
                 className="bg-[#02B1C8] hover:bg-[#1c9aab] font-semibold text-white text-xl w-52 rounded-xl py-2 flex items-center justify-center mt-4"
               >
@@ -164,6 +164,23 @@ export default function Revista() {
                 className="bg-[#02B1C8] hover:bg-[#1c9aab] font-semibold text-white text-xl w-52 rounded-xl py-2 flex items-center justify-center mt-4"
               >
                 Baixar 7º edição
+              </a>
+            </div>
+            <div className="flex flex-col mt-12 items-center">
+              <h3 className="text-[#3A3178] text-2xl font-bold text-center">
+                7º Edição
+              </h3>
+              <img
+                src="/assets/images/barbalha-business-08-capa.png"
+                alt=""
+                className="h-[60vh] mt-4 lg:h-[24rem]"
+              />
+              <a
+                href="/assets/pdfs/barbalha-business-8edicaco.pdf"
+                download="Barbalha Business 7º edição.pdf"
+                className="bg-[#02B1C8] hover:bg-[#1c9aab] font-semibold text-white text-xl w-52 rounded-xl py-2 flex items-center justify-center mt-4"
+              >
+                Baixar 8º edição
               </a>
             </div>
           </div>
