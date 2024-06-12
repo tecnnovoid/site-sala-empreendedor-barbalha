@@ -183,7 +183,26 @@ export default function Revista() {
                 Baixar 8º edição
               </a>
             </div>
+            <div className="flex flex-col mt-12 items-center">
+              <h3 className="text-[#3A3178] text-2xl font-bold text-center">
+                9º Edição
+              </h3>
+              <img
+                src="/assets/images/barbalha-business-09-capa.jpeg"
+                alt=""
+                className="h-[60vh] mt-4 lg:h-[24rem]"
+              />
+              <a
+                href="/assets/pdfs/barbalha-business-9edicaco.pdf"
+                download="Barbalha Business 9º edição.pdf"
+                className="bg-[#02B1C8] hover:bg-[#1c9aab] font-semibold text-white text-xl w-52 rounded-xl py-2 flex items-center justify-center mt-4"
+              >
+                Baixar 9º edição
+              </a>
+            </div>
           </div>
+
+          
           
         </section>
       </main>
