@@ -12,11 +12,11 @@ export function WomenEntrepreneurs() {
           instituições financeiras como SICREDI e Banco do Nordeste.
         </p>
       </div>
-      <img
+      {/* <img
         src="/assets/images/mulheres-emprreendedoras.jpg"
         alt="Mulheres empreendedoras"
         className="mt-6 w-[90%] lg:w-[50%]"
-      />
+      /> */}
     </section>
   );
 }

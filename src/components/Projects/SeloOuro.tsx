@@ -12,17 +12,17 @@ export function SeloOuro() {
           O Selo Ouro de Qualidade é um selo de confiança que não apenas enaltece a Sala do Empreendedor de Barbalha, mas também fortalece a imagem do município como um ambiente propício para o empreendedorismo.
         </p>
       </div>
-      <div className="flex flex-col gap-8 lg:flex-row">
+      <div className="flex flex-col">
         <img
           src="/assets/images/selos.jpg"
           alt="Selo Ouro de Qualidade em Atendimento"
-          className="mt-6 h-[50vh] lg:h-[60vh] lg:w-[50%]"
+          className="mt-6 h-[80vh] "
         />
-        <img
+        {/* <img
           src={"/assets/images/selo2023.jpg"}
           alt="Selo Ouro de Qualidade em Atendimento"
           className="mt-6 h-[50vh] lg:h-[60vh] lg:w-[50%]"
-        />
+        /> */}
 
       </div>
     </section>

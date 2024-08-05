@@ -13,7 +13,7 @@ export default function App() {
       <Header />
       <main>
         <Home/>
-        <Video />
+        {/* <Video /> */}
         <Services />
         <Projects />
       </main>

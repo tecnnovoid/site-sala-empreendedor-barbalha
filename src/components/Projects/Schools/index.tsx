@@ -9,7 +9,7 @@ export function Schools() {
           Uma Perspectiva no Processo de Ensino e Aprendizagem- Incentivar o empreendedorismo aproveitando as vivências e experiências do ambiente escolar, no intuito de preparar o jovem a desenvolver habilidades, estimular a autonomia e a busca de inovações.
         </p>
       </div>
-      <img src="/assets/images/escolas.jpg" alt="Foto do projeto Empreendedorismo nas Escolas de Ensino Medio em Tempo Integral" className="mt-6 w-[90%] lg:w-[50%]"/>
+      {/* <img src="/assets/images/escolas.jpg" alt="Foto do projeto Empreendedorismo nas Escolas de Ensino Medio em Tempo Integral" className="mt-6 w-[90%] lg:w-[50%]"/> */}
     </section>
   );
 }

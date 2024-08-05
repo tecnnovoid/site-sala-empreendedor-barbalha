@@ -16,8 +16,8 @@ export function Home() {
       </div>
 
       <div className="mt-8 md:flex md:flex-row md:gap-8">
-        <img src="/assets/images/img-sala1.png" alt="Foto da Sala do Empreendedor de Barbalha" className="2xl:h-[60vh]" />
-        <img src="/assets/images/img-sala2.png" alt="Foto da Sala do Empreendedor de Barbalha" className="hidden md:flex 2xl:h-[60vh]" />
+        <img src="/assets/images/img-sala1.png" alt="Foto da Sala do Empreendedor de Barbalha" className="2xl:h-[100vh]" />
+        {/* <img src="/assets/images/img-sala2.png" alt="Foto da Sala do Empreendedor de Barbalha" className="hidden md:flex 2xl:h-[60vh]" /> */}
       </div>
     </section>
   );

@@ -16,7 +16,7 @@ export function Magazines() {
                     Acessar revistas 
                 </a>
             </div>
-            <img src="/assets/images/revistas.png" alt="Revistas da Sala do Empreendedor de Barbalha" className="w-[95%] lg:w-[45%]" />
+            {/* <img src="/assets/images/revistas.png" alt="Revistas da Sala do Empreendedor de Barbalha" className="w-[95%] lg:w-[45%]" /> */}
 
         </section>
     );

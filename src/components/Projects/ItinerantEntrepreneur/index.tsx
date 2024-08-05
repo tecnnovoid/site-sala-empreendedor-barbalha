@@ -11,11 +11,11 @@ export function ItinerantEntrepreneur() {
           adesão dos empreendedores aos serviços da sala do empreendedor
         </p>
       </div>
-      <img
+      {/* <img
         src="/assets/images/intinerante.png"
         alt="Empreendedor Itinerante"
         className="mt-6 w-[90%]"
-      />
+      /> */}
     </section>
   );
 }
